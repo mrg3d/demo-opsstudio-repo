@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dashboard.server.widgets": [
+			{
+				"name": "Tasks",
+				"widget": {
+					"tasks-widget": {}
+				},
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 1
+				}
+			},
+			{
+				"gridItemConfig": {
+					"sizex": 1,
+					"sizey": 2
+				},
+				"widget": {
+					"explorer-widget": {}
+				}
+			},
+			{
+				"widget": {
+					"backup-history-server-insight": {
+						"cacheId": "0c7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+					}
+				}
+			},
+			{
+				"widget": {
+					"all-database-size-server-insight": {
+						"cacheId": "1d7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+					}
+				}
+			}
+		]
+	}
+}
