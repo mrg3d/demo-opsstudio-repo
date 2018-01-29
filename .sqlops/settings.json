@@ -1,7 +1,7 @@
 {
     "dashboard.server.widgets": [
         {
-            "name": "WaitStats",
+            "name": "Paul Randal Wait stats",
             "gridItemConfig": {
                 "sizex": 2,
                 "sizey": 1
@@ -14,10 +14,10 @@
                             "dataType": "number",
                             "legendPosition": "none",
                             "labelFirstColumn": false,
-                            "columnsAsLabels": true
+                            "columnsAsLabels": false
                         }
                     },
-                    "queryFile": "..\\Insight\\Waitstats_simple.sql"
+                    "queryFile": "c:\\GIT Repo\\demo-opsstudio-repo-master\\demo-opsstudio-repo\\Insight\\Waitstats_simple.sql"
                 }
             }
         },

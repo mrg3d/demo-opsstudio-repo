@@ -88,7 +88,7 @@ WITH [Waits] AS
     )
 SELECT
     MAX ([W1].[wait_type]) AS [WaitType],
-    CAST (MAX ([W1].[Percentage]) AS DECIMAL (5,2)) AS [Percentage]
+    CAST (MAX ([W1].[Percentage]) AS INT) AS [Percentage]
 FROM [Waits] AS [W1]
 INNER JOIN [Waits] AS [W2] ON [W2].[RowNum] <= [W1].[RowNum]
 GROUP BY [W1].[RowNum]
