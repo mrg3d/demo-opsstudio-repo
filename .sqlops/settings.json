@@ -1,0 +1,58 @@
+{
+    "dashboard.server.widgets": [
+        {
+            "name": "WaitStats",
+            "gridItemConfig": {
+                "sizex": 2,
+                "sizey": 1
+            },
+            "widget": {
+                "insights-widget": {
+                    "type": {
+                        "horizontalBar": {
+                            "dataDirection": "vertical",
+                            "dataType": "number",
+                            "legendPosition": "none",
+                            "labelFirstColumn": false,
+                            "columnsAsLabels": true
+                        }
+                    },
+                    "queryFile": "..\\Insight\\Waitstats_simple.sql"
+                }
+            }
+        },
+        {
+            "name": "Tasks",
+            "widget": {
+                "tasks-widget": {}
+            },
+            "gridItemConfig": {
+                "sizex": 1,
+                "sizey": 1
+            }
+        },
+        {
+            "gridItemConfig": {
+                "sizex": 1,
+                "sizey": 2
+            },
+            "widget": {
+                "explorer-widget": {}
+            }
+        },
+        {
+            "widget": {
+                "backup-history-server-insight": {
+                    "cacheId": "0c7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+                }
+            }
+        },
+        {
+            "widget": {
+                "all-database-size-server-insight": {
+                    "cacheId": "1d7cba8b-c87a-4bcc-ae54-2f40a5503a90"
+                }
+            }
+        }
+    ]
+}
