@@ -15,7 +15,7 @@
                     "columnsAsLabels": true
                 }
             },
-            "queryFile": ".\\Insight\\Waitstats_simple.sql"
+            "queryFile": "${workspaceRoot}/Insight/Waitstats_simple.sql"
         }
     }
 }
