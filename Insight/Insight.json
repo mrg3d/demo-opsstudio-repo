@@ -15,7 +15,12 @@
                     "columnsAsLabels": true
                 }
             },
-            "queryFile": "${workspaceRoot}/Insight/Waitstats_simple.sql"
+            "queryFile": "${workspaceRoot}/Insight/Waitstats_simple.sql",
+            "details": {
+                "queryFile": "${workspaceRoot}/Insight/Waitstats_full.sql",
+                "label": "Wait_Type",
+                "value": "Percentage"
+            }
         }
     }
 }
