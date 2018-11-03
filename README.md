@@ -1,2 +1,2 @@
-# demo-opsstudio-repo
+# Introducing SQL Operations Studio
 Workspace demo
